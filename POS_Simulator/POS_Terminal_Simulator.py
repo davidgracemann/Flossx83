@@ -71,7 +71,7 @@ FIELD_REGISTRY: List[Tuple[int, str, str, int, str, bool]] = [
     (21, "Forwarding Institution Country Code",      "356",        3,  "n", False),
     (22, "Point of Service Entry Mode",              "051",        3,  "n", False),
     (23, "Card Sequence Number",                     "001",        3,  "n", False),
-    (24, "Function Code (Network ID)",               "0001",       4,  "n", False),
+    (24, "Function Code (Network ID)",               "001",        3,  "n", False),
     (25, "POS Condition Code",                       "00",         2,  "n", False),
     (26, "POS Capture Code",                         "12",         2,  "n", False),
     (27, "Authorization ID Response Length",         "1",          1,  "n", False),

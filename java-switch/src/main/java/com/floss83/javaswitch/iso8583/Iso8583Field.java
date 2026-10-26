@@ -54,7 +54,7 @@ public enum Iso8583Field {
             "ISO country code. Fixed 3n."),
     POINT_OF_SERVICE_ENTRY_MODE(22, "Point of Service Entry Mode", 3, false, "n", "POS entry. Fixed 3n."),
     CARD_SEQUENCE_NUMBER(23, "Card Sequence Number", 3, false, "n", "2–3 digits for reissued cards. Fixed 3n."),
-    FUNCTION_CODE(24, "Function Code (Network International ID)", 4, false, "n", "Message function. Fixed 4n."),
+    FUNCTION_CODE(24, "Function Code (Network International ID)", 3, false, "n", "Fixed 3n. Network International ID (NII)."),
     POINT_OF_SERVICE_CONDITION_CODE(25, "Point of Service Condition Code", 2, false, "n",
             "Transaction conditions. Fixed 2n."),
     POINT_OF_SERVICE_CAPTURE_CODE(26, "Point of Service Capture Code", 2, false, "n", "Capture method. Fixed 2n."),
